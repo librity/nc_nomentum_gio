@@ -1,0 +1,52 @@
+.left {
+  width: 20vw;
+}
+
+.search_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.search_form {
+  position: relative;
+  overflow: hidden;
+
+  width: 20vw;
+  height: 3rem;
+}
+
+.search_icon {
+  width: 2rem;
+  height: 2rem;
+
+  margin-bottom: 0.25rem;
+}
+
+.search_input {
+  position: absolute;
+  left: -16vw;
+  transition: 0.5s;
+
+  margin-left: 0.5rem;
+
+  padding: 0.5rem;
+  padding-left: 1rem;
+
+  background: #e6e6e626;
+
+  border: none;
+  border-bottom: 2px #ffffff33 solid;
+  border-radius: 1rem;
+
+  color: #ffffff;
+  font-size: 1.25rem;
+}
+
+.search_container:hover .search_input {
+  transition: 0.5s;
+  left: 0;
+}

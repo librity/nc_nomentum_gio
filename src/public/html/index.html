@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="/public/favicon.ico" type="image/x-icon" />
+
+    <link rel="stylesheet" href="/public/css/roboto.css" />
+
+    <link rel="stylesheet" href="/public/css/global.css" />
+    <link rel="stylesheet" href="/public/css/left.css" />
+    <link rel="stylesheet" href="/public/css/center.css" />
+    <link rel="stylesheet" href="/public/css/right.css" />
+
+    <title>Nomentum</title>
+  </head>
+
+  <body>
+    <section class="left">
+      <div class="search_container">
+        <label for="search_input">
+          <img
+            class="search_icon"
+            id="search_icon"
+            src="/public/images/search_icon.png"
+            alt="Search the internet"
+          />
+        </label>
+
+        <form class="search_form" id="search_form">
+          <input
+            class="search_input"
+            id="search_input"
+            placeholder="Search the internet"
+            type="text"
+            required
+          />
+        </form>
+      </div>
+    </section>
+
+    <section class="center">
+      <div class="center_anchor"></div>
+
+      <div class="clock_greeting">
+        <h2 class="clock" id="clock">00:00:00</h2>
+
+        <form class="hidden" id="login_form">
+          <input
+            class="floating"
+            placeholder="What's your name?"
+            type="text"
+            required
+            maxlength="15"
+          />
+        </form>
+
+        <h1 class="hidden" id="greeting"></h1>
+      </div>
+
+      <div class="todo_quote">
+        <div class="todo_container" id="todo_container">
+          <form class="todo" id="todo_form">
+            <input
+              class="floating"
+              type="text"
+              placeholder="Type a task here"
+              required
+            />
+          </form>
+
+          <ul class="todo_list" id="todo_list"></ul>
+        </div>
+
+        <div class="quote" id="quote">
+          <div id="quote_content"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="right">
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        class="weather_container"
+        id="weather_container"
+      >
+        <img src="" alt="" id="weather_icon" />
+
+        <div class="weather_details">
+          <span id="weather_temp"></span>
+          <span id="weather_city"></span>
+        </div>
+      </a>
+    </section>
+
+    <script src="/public/js/global.js"></script>
+    <script src="/public/js/username.js"></script>
+    <script src="/public/js/greeting.js"></script>
+    <script src="/public/js/api.js"></script>
+    <script src="/public/js/login.js"></script>
+    <script src="/public/js/clock.js"></script>
+    <script src="/public/js/quotes.js"></script>
+    <script src="/public/js/todo.js"></script>
+    <script src="/public/js/weather.js"></script>
+    <script src="/public/js/search.js"></script>
+  </body>
+</html>

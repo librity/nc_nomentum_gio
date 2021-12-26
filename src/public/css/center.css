@@ -1,0 +1,90 @@
+.center {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.center_anchor {
+  height: 30vh;
+}
+
+.clock_greeting {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.clock {
+  font-size: 10rem;
+}
+
+#greeting {
+  font-size: 5rem;
+}
+
+.todo_quote {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+
+  flex: 1;
+}
+
+.todo_container {
+  margin-top: 1rem;
+}
+
+form.todo {
+  display: flex;
+  justify-content: space-around;
+
+  margin-bottom: 1rem;
+}
+
+.todo_list {
+  height: 25vh;
+
+  overflow: auto;
+}
+
+li.task {
+  width: fit-content;
+
+  margin-bottom: 0.25rem;
+  padding: 0.25rem 0.75rem;
+
+  background: #e6e6e626;
+  border-radius: 1rem;
+
+  font-size: 1.5rem;
+}
+
+button.delete_task {
+  background: none;
+  border: none;
+
+  margin-right: 0.5rem;
+}
+
+.quote {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  max-width: 50vw;
+
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+  text-align: center;
+}
+
+.quote div {
+  max-width: 50vw;
+
+  padding: 0.5rem 0.75rem;
+
+  background: #e6e6e626;
+  border-radius: 1rem;
+}

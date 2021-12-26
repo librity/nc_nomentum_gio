@@ -1,0 +1,107 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+:root {
+  --zen-blue: #8fb5e5;
+  --zen-green: #bbcfe6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: 0;
+}
+
+html {
+  background: #333333;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+
+  width: 100vw;
+  height: 100vh;
+
+  opacity: 0;
+  animation: fadeIn 1s ease-in-out forwards;
+  animation-delay: 1s;
+
+  background-image: url('https://source.unsplash.com/random/1920x1080/?landscape');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+body,
+input,
+button {
+  font: 1rem 'Roboto', sans-serif;
+
+  /*
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #cacaca;
+  */
+}
+
+::placeholder {
+  color: #dddddd;
+  opacity: 1;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+body {
+  color: #ffffff;
+}
+
+.hidden {
+  display: none;
+}
+
+input.floating {
+  padding: 0.5rem;
+  padding-left: 1rem;
+
+  background: #e6e6e626;
+
+  border: none;
+  border-bottom: 2px #ffffff33 solid;
+  border-radius: 1rem;
+
+  font-size: 2rem;
+  color: #ffffff;
+}

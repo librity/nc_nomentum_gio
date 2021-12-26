@@ -1,0 +1,34 @@
+{
+  "name": "nc_js101",
+  "version": "1.0.0",
+  "description": "A Momentum clone.",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon",
+    "format": "prettier --write ./src",
+    "build": "babel src --ignore src/public --out-dir build --copy-files",
+    "start": "node build/server.js",
+    "prod": "npm run build && npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/librity/nc_js101.git"
+  },
+  "author": "@librity",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/librity/nc_js101/issues"
+  },
+  "homepage": "https://github.com/librity/nc_js101#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.5",
+    "@babel/node": "^7.15.4",
+    "@babel/preset-env": "^7.15.6",
+    "nodemon": "^2.0.13",
+    "prettier": "^2.4.1"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "coord": {
+    "lon": -46.6995,
+    "lat": -23.6375
+  },
+  "weather": [
+    {
+      "id": 803,
+      "main": "Clouds",
+      "description": "broken clouds",
+      "icon": "04d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 23.42,
+    "feels_like": 24.12,
+    "temp_min": 20.16,
+    "temp_max": 25.32,
+    "pressure": 989,
+    "humidity": 88
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 3.6,
+    "deg": 130
+  },
+  "clouds": {
+    "all": 75
+  },
+  "dt": 1639506862,
+  "sys": {
+    "type": 1,
+    "id": 8446,
+    "country": "BR",
+    "sunrise": 1639469659,
+    "sunset": 1639518539
+  },
+  "timezone": -10800,
+  "id": 3467722,
+  "name": "Campo Limpo",
+  "cod": 200
+}
